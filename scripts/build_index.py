@@ -78,7 +78,7 @@ def generate_blog_index():
         category, subcategory = get_category_from_path(file_path)
 
         # Create raw URL for the post
-        raw_url = f"https://raw.githubusercontent.com/zzhang/vault-overflow/main/{file_path.replace('./', '')}"
+        raw_url = f"https://raw.githubusercontent.com/study-overflow/vault-overflow/main/{file_path.replace('./', '')}"
 
         # Create index entry
         index_entry = {
